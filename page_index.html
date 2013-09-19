@@ -10,32 +10,40 @@
 </head> 
 <body> 
 
-<div data-role="page" id="home">
+<div data-role="page" id="home" data-theme="d">
 
 	<div data-role="header">
-		<h1>DIG 4104c Web Comic Viewer - Rodney Ritchey</h1>
+		<h1>MOBICOMIX</h1>
 	</div><!-- /header -->
 
-	<div data-role="content">	
+	<div data-role="content">
+		<div id="banner">
+			<img src="img/comic_banner.jpg" />
+			<h2>Welcome to MOBICOMIX!</h2> 
+			<p>MOBICOMIX is a mobile web comic archive and viewer. This site was developed as a project for Dr. Moshell&apos; s mobile web design class DIG 4104c under the Digital Media Department in the School of Visual Arts &amp; Design at the University of Central Florida. This site was built on the JQuery Mobile platform.</p> 
+		</div>
+		<div id="archive_head" class="ui-bar ui-bar-d">
+			<h2>Archive</h2>
+			</div>	
 		<ul data-role="listview" data-theme="g">
 			<li>
-				<img src="img/comic1/cover.jpg" />
-				<a data-ajax="false" href="comic1.html">
-					<h2>Marvel Saga</h2>
-					<p>The Origin of the Silver Surfer</p>
+				<img src="img/comic1/01.jpg" />
+				<a href="comic1.html" data-ajax="false">
+					<h2>Marvel Saga &#35;25</h2>
+					<p>The Origin of the Silver Surfer.</p>
+				</a>
+			</li>
+			<li>
+				<img src="img/comic2/01.jpg" />
+				<a href="comic2.html" data-ajax="false">
+					<h3>Doom &#35;1</h3>
+					<p>Doom Without Armor.</p>
 				</a>
 			</li>
 			<li>
 				<img src="img/test_thumb.jpg" />
 				<a href="#foo">
-					<h2>Comic Title</h2>
-					<p>A little about each comic.</p>
-				</a>
-			</li>
-			<li>
-				<img src="img/test_thumb.jpg" />
-				<a href="#foo">
-					<h2>Comic Title</h2>
+					<h3>Comic Title</h3>
 					<p>A little about each comic.</p>
 				</a>
 			</li>
@@ -43,7 +51,7 @@
 	</div><!-- /content -->
 
 	<div data-role="footer">
-		<h4>SVAD - Digital Media Department</h4>
+		<h4>Rodney Ritchey</h4>
 	</div><!-- /footer -->
 </div><!-- /page -->
 
