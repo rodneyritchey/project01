@@ -8,13 +8,11 @@ div#banner {
 
 div#banner p {
 	margin: auto;
-	width: 50%;
+	margin-bottom: 2em;
+	width: 60%;
 	line-height: 1.25em;
 }
 
-div#archive_head {
-	width: 96%;
-	margin: auto;
-	margin-bottom: 2em;
+li#archive_head {
 	margin-top: 1em;
 }
